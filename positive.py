@@ -1,5 +1,7 @@
-n=int(input("Enter a number: "))
-if(n>=0):
-  print("Number is positive")
+n=int(input(" "))
+if(n>0):
+  print("Positive")
+elif(n<0):
+  print("Negative")
 else:
-  print("Number is negative")
+  print("Zero")
